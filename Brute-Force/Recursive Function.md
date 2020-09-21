@@ -41,3 +41,13 @@ void selectCard(Stack&ltInteger&gt selected, int selectNum, int N) {
 <li>예시 1: [1~N의 합을 구하기]를 [N + 1~N-1의 합 구하기]으로 쪼개는데 1~1의 합은 더이상 쪼갤 수 없기 때문에 N==1을 base case로 설정</li>
 <li>예시 2: [카드 4장 고르기]를 [카드 1장 고르기 + 카드 3장 고르기]로 쪼개는데 골라야 하는 카드가 한장 남은 남은 상황은 더이상 쪼갤 수 없기 때문에 selectNum==0을 base case로 설정</li>
 </ul>
+
+
+## 수학적 귀납법
+P(1)이 참이고 P(N) -> P(N+1)이 참이면 모든 자연수 N에 대하여 P(N)은 참이다.
+
+
+## Solution Link
+<ul>
+  <li>https://github.com/Song-Jihyun/Solution/blob/master/Algospot_BOGGLE.java</li>
+</ul>
