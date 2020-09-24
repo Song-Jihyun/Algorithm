@@ -60,4 +60,5 @@ P(1)이 참이고 P(N) -> P(N+1)이 참이면 모든 자연수 N에 대하여 P(
   <li>https://github.com/Song-Jihyun/Solution/blob/master/Algospot_BOGGLE.java</li>
   <li>https://github.com/Song-Jihyun/Solution/blob/master/Algospot_PICNIC.java</li>
   <li>https://github.com/Song-Jihyun/Solution/blob/master/Algospot_BOARDCOVER.java</li>
+  <li>https://github.com/Song-Jihyun/Solution/blob/master/Algospot_CLOCKSYNC.java</li>
 </ul>
