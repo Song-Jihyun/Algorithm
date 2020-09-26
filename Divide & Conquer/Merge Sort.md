@@ -6,9 +6,9 @@
 <ul>
   <li><strong>Divide:</strong> 배열을 같은 크기의 두 배열로 나눈다. [O(1)]</li>
   <li><strong>Merge:</strong> 두 배열을 병합하면서 정렬한다. [O(N)]</li>
-  <li><strong>Base case:</strong> 배열의 길이가 1 이하면 정렬된것으로 생각하고 return한다.</li>
+  <li><strong>Base case:</strong> 배열의 길이가 1 이하면 정렬된 것으로 생각하고 return한다.</li>
 </ul>
-퀵 정렬도 분할 정복에 기반을 뒀지만 병합정렬과 달리 Divide 과정에서 정렬이 진행된다. 
+퀵 정렬도 분할 정복에 기반을 뒀지만 병합 정렬과 달리 Divide 과정에서 정렬이 진행된다. 
 
 
 ## 시간복잡도 O(N*logN)
@@ -35,7 +35,11 @@ Time Complexity of Merge Sort is O(N*logN)
 ## mergeSort.java
 <pre>
 <code>
-void mergeSort(int arr[], int start, int end){ <strong>//initial-> start: 0, end: arr.length</strong>
+void mergeSort(int arr[]) {
+  mergeSort(arr, 0, arr.length);
+}
+
+void mergeSort(int arr[], int start, int end) {
   <strong>//base case</strong>
   if(end - start <= 1) return;
 		
