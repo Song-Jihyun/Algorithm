@@ -5,7 +5,7 @@
 ## 퀵 정렬의 원리
 <ul>
   <li><strong>Divide:</strong> 배열의 처음에 위치한 값을 기준(pivot)으로 더 작은 수와 더 큰 수를 담은 두 배열로 나눈다. [O(N)]</li>
-  <li><strong>Merge:</strong> 두 배열을 병합한다. [O(1)]</li>
+  <li><strong>Merge:</strong> 두 배열을 병합한다. [이 과정은 생략됨]</li>
   <li><strong>Base case:</strong> 배열의 길이가 1 이하면 정렬된 것으로 생각하고 return한다.</li>
 </ul>
 병합 정렬도 분할 정복에 기반을 뒀지만 퀵 정렬과 달리 Merge 과정에서 정렬이 진행된다.
@@ -95,8 +95,7 @@ void quickSort(int arr[], int start, int end) {
   }
 		
   swap(arr, start, right);
-	
-  <strong>//merge</strong>
+  
   quickSort(arr, start, right);
   quickSort(arr, right+1, end);
 }
