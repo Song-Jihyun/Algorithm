@@ -7,5 +7,6 @@
   <li>Divide & Conquer<ul>
     <li>Divide & Conquer</li>
     <li>Merge Sort</li>
+    <li>Karatsuba Algorithm</li>
   </ul></li>
 </ul>
