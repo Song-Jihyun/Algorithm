@@ -9,4 +9,8 @@
     <li>Merge Sort</li>
     <li>Karatsuba Algorithm</li>
   </ul></li>
+  
+  <li>Dynamic Programming<ul>
+    <li>Dynamic Programming</li>
+  </ul></li>
 </ul>
